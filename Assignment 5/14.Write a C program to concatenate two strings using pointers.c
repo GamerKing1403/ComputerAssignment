@@ -27,7 +27,7 @@ int main(){
             *(ptr3 + i) = *(ptr1 + i);
             printf("working");
         }else{
-            *(ptr3 + i) = *(ptr2 + i);
+            *(ptr3 + i) = *(ptr2 + i - a);
             printf("working");
         }
     }
